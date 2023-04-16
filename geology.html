@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Янушевська Вікторія"> <!-- автор веб-документа -->
+    <title>Geological Museum</title> 
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<header>
+    <a href="index.html" target="_blank"><h1 style="line-height: 250%; margin-top: 0%; margin-right: 15px; text-align: right; color: #fcebf3; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(136, 122, 123);">Museum portal</h1></a>
+</header>
+
+<style>
+    a{
+    text-decoration: none;
+    color: rgb(62, 54, 213);
+}
+</style>
+
+
+
+<body>
+    <div id="geology_first">
+        <h3 align="center">Information about the Geological Museum</h3><hr color="#b2a5a3" size="1">   
+        <img style="height: 200%; display: block; margin: 0 auto;" src="/images/museum_geology.webp" alt=""><hr color="#b2a5a3" size="1">   
+        <p><font size="4" color="green" face="Arial">It</font> was founded in 1834 as the Mineralogical Office of <i>the Department of Mineralogy and Geognosy of the University of St. Volodymyr</i>. The initial fund for it was 15,538 specimens of the Volyn Lyceum, 1,457 specimens of the Lutsk Gymnasium and several hundred exhibits of the Vilnius University. At the beginning of 1837, the collection of the Mineralogical Cabinet already counted 19,362 samples of minerals, rocks and fossils.</p>
+        <p><b>The Geology Museum</b> preserves, examines, and displays actual scientific rock material that relates to many aspects of the study of planet Earth. This material testifies to the material composition of the earth's crust, the structure, origin and development of our planet, to the complex phenomena and processes that took place on its surface and in its interior.</p>
+    </div>
+    <div class="museumslist"> <!--нумерований список (в алфавітному порядку)-->
+        <ol type="1">
+            <li><a href="butterflies.html" target="_blank">Museum of butterflies, Kyiv</a></li>
+            <li><a href="history.html" target="_blank">National Museum of the History of Ukraine, Kyiv</a></li>
+        </ol>
+    </div>
+
+    <div>
+    <table id="types_visit" cellspacing="2px" cellpadding="2px" >
+        <colgroup>
+            <col>
+            <col span="2" class="all">
+            <col span="6" class="definite">
+        </colgroup>
+    	<tr style="background-color: rgb(237, 242, 255);">
+    		<td rowspan =  "2">Types of excursions</td>
+    		<td colspan =  "2">Sightseeing tour</td>
+    		<td colspan =  "2">General Geology and Geological Processes Tour</td>
+    		<td colspan =  "2">Paleontology and Evolution of Life on Earth Tour</td>
+            <td colspan =  "2">Mineralogy and Petrography Tour</td>
+   		</tr>
+        
+   		<tr>
+            <td colspan =  "2"><img src="/images/g1.jpg"></td>
+    		<td colspan =  "2"><img src="/images/g2.jpg"></td>
+    		<td colspan =  "2"><img src="/images/g3.jpg"></td>
+            <td colspan =  "2"><img src="/images/g4.jpg"></td>
+          		</tr>
+   		<tr>
+   			<td style="background-color: rgb(237, 242, 255);">Details (Duration/Location)</td>
+   			<td> 1 hour</td>  
+   			<td> all halls </td> 
+   			<td> 1.5 hours </td> 
+   			<td> hall №1 </td> 
+   			<td> 1.5 hours </td> 
+   			<td> hall №2 </td> 
+   			<td> 1.5 hours </td>
+            <td> hall №3 </td>
+   	</table>
+    </div><hr color="#b2a5a3" size="1">
+
+    <div>
+        <button onclick="addTextNode(' We are very glad that you are interested and would like to give a 5% discount on visiting any museum. ');">Yes</button>
+        <button onclick="addTextNode(' Okay, then we hope that you will find something more interesting. Have a good day! ');">No</button>
+        <p id="feedback"><b>Did you like the site?</b></p><hr color="#b2a5a3" size="1">
+    </div>
+
+    <script>
+        addElement();
+    </script>
+
+    <div id="return" style="margin-bottom: 10px;">
+        <a href="index.html" target="_self">Повернутися на головну...</a>
+    </div>
+
+</body>
+
+<footer>
+    <h1 style="line-height: 250%; margin-top: 0%; margin-left: 15px; text-align: left; color: #fcebf3; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(136, 122, 123);">The end</h1>
+</footer>
+
+</html>

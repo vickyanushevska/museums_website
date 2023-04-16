@@ -1,0 +1,244 @@
+header{
+    background-color: #b2a5a3;
+    height: 80px;
+}
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #fcebf3;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    color: rgb(60, 59, 59);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 110%;
+}
+p{ /*універсальний ідентифікатор, вирівн. по ширині*/
+    text-align: justify; 
+    font-weight: normal !important;
+}  
+header a:hover{
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #8f7bf1;
+    text-decoration: none;
+}
+  /* visited link */
+a:visited {
+    color: #e35555;
+    text-decoration: none;
+}
+  /* mouse over link */
+a:hover {
+    color: #1900ff;
+    text-decoration: underline;
+}
+  /* selected link */
+a:active {
+    color: #0000FF;
+}
+
+footer{
+    background-color: rgb(178, 165, 163);
+    height: 80px;
+}
+#changecolor{
+    margin-top: 10px;
+    text-align: right;
+}
+q::before {
+    content: "«";
+    color: #8f7bf1;
+}
+q::after {
+    content: "»";
+    color: #8f7bf1;
+}
+  
+.content img{
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметри тіні */
+}
+#content_butterflies img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+#history_first img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+#geology_first img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+/*STYLES NUMBERED & MARKED & DEFINITION LIST*/
+.museumslist {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.museumslist a{
+    text-decoration: underline;
+    color: black;
+}
+.museumslist li:first-child{
+    font-weight: bold;
+}
+
+.museumslist_hist{
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.museumslist_hist a{
+    text-decoration: underline;
+    color: black;
+}
+
+/*STYLES TABLE_1*/
+#top_mus, td, th {
+    border: 1px solid rgb(136, 122, 123);
+}
+#top_mus{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#top_mus img{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+/*STYLES TABLE_2*/
+#types_visit, td, th{
+    border: 1px solid rgb(136, 122, 123);
+    text-align: center;
+}
+#types_visit{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#types_visit img{
+    height: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.all {
+background-color: #d7d9f2;
+}
+.definite {
+background-color: #ffe8d4;
+}
+
+/*контекстні селектори*/
+#invitation h4{
+    color: rgb(60, 59, 59);
+    text-align: center;
+}
+
+/*дочірні селектори*/
+#invitation > #reason {
+    color: rgb(60, 59, 59);
+}
+
+/*сусідні селектори*/
+#invitation b + i{
+    color: rgb(62, 54, 213);
+    text-decoration: underline;
+}
+
+
+
+/*LABORATORNA 5*/
+
+.div1{    
+    width: 50%;
+    float: left; /*вирівнювання по лівому краю, обтікання по правому*/
+    margin-top: 30px;
+}
+
+.div2{    
+    width: 50%;
+    min-height: 299px;  
+    margin-left: 50%;
+    margin-top: 30px;
+    text-align: right; 
+    position: relative;
+}
+
+.child{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(0%, -50%);
+}
+
+
+/*LABORATORNA 7*/
+
+#listhistory{
+    margin-bottom: 10px;
+}
+#contacts{
+    margin-top: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+#top_mus_ua, td, th {
+    border: 1px solid rgb(136, 122, 123);
+}
+#top_mus_ua, th {
+    cursor: pointer;
+  }
+#top_mus_ua, th:hover {
+    background: rgb(207, 220, 252);;
+  }
+#top_mus_ua{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#top_mus_ua img{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+#sort{
+    margin-top: 10px;
+}  
+
+#grid{
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+#grid img{
+    max-height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}

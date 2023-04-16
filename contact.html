@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Янушевська Вікторія"> <!-- автор веб-документа -->
+    <title>Contacts</title> <!--назва сторінки-->
+
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--підключення зовнішнього CSS файлу-->
+    <script src="script.js"></script>
+</head>
+
+<script>
+    
+</script>
+
+<header id="header">
+        <a href="index.html" target="_blank"><h1 style="line-height: 250%; margin-top: 0%; margin-right: 15px; text-align: right; color: #fcebf3; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(136, 122, 123);">Museum portal</h1></a>
+</header>
+
+
+<body> <!--атрибут для кольору гіперпосилань-->
+
+    <!-- <button id="sort" onclick="Sorting()">Sorting by alphabet</button></div> -->
+
+    <div> <!--table-->
+        <table id="top_mus_ua">
+            <caption><h3>Top-3 museums of Ukraine</h3></caption> <!--назва таблиці-->
+            <tr style="background-color: rgb(237, 242, 255);">
+              <th>Pyrohovo Open-Air Museum</th>
+              <th>Golden Gate</th>
+              <th>Khotyn Fortress</th>
+            </tr>
+            <tbody>
+            <tr>
+              <td><img src="/images/pyrohovo.jpg"></td>
+              <td><img src="images/goldengate.jpg"></td>
+              <td><img src="images/hotyn.jpg"></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.tripadvisor.com/Attraction_Review-g294474-d2013827-Reviews-Pyrohovo_Open_Air_Museum-Kyiv.html">pyrohovo.org</a></td>
+              <td><a href="https://www.tripadvisor.com/Attraction_Review-g294474-d1973581-Reviews-Golden_Gate-Kyiv.html">goldengate.org</a></td>
+              <td><a href="https://www.tripadvisor.com/Attraction_Review-g1816348-d1825629-Reviews-Khotyn_Fortress-Khotyn_Chernivtsi_Oblast.html">hotyn.com</a></td>
+            </tr>
+            <tr>
+              <td>Kyiv, Ukraine</td>
+              <td>Kyiv, Ukraine</td>
+              <td>Khotyn, Ukraine</td>
+            </tr>
+            <tbody>
+          </table>
+    </div><hr color="#b2a5a3" size="1">
+
+    <h3>Feedback</h3>
+    <table id="grid">
+        <thead>
+          <tr>
+            <th data-type="images">Photo</th>
+            <th data-type="string">Name</th>
+            <th data-type="number">Number</th>
+            <th data-type="string">City</th>
+            <th data-type="number">Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/portrait1.jpg" ></td>
+            <td>Jameson Hayes</td>
+            <td>+1 307-684-0170</td>
+            <td>London</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td><img src="images/portrait2.jpg" ></td>
+            <td>Wesley Drake</td>
+            <td>+1 231-524-5019</td>
+            <td>Berlin</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td><img src="images/portrait3.jpg" ></td>
+            <td>Penelope Bullock</td>
+            <td>+1 505-581-7678</td>
+            <td>Kyiv</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><img src="images/portrait4.jpg" ></td>
+            <td>Julianne Hammond</td>
+            <td>+1 505-518-1283</td>
+            <td>Paris</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td><img src="images/portrait5.jpg" ></td>
+            <td>Tommy Anderson</td>
+            <td>+1 505-582-2977</td>
+            <td>Madrid</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script>
+        Sorting();
+    </script>
+
+</body>
+
+<footer>
+    <h1 style="line-height: 250%; margin-top: 0%; margin-left: 15px; text-align: left; color: #fcebf3; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(136, 122, 123);">The end</h1>
+</footer>
+
+</html>
